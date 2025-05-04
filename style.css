@@ -12,6 +12,21 @@
   box-shadow: 0 0 10px black;
   border-radius: 8px;
 }
+
+.side-card {
+  width: 300px;
+  padding: 5px;
+  text-align: center;
+  box-shadow: 0 0 10px black;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.side-card-img {
+  width: 60px;
+  height: auto;
+}
+
 .cards img {
   width: 50%;
   height: auto;

@@ -68,13 +68,13 @@ fetch("https://fakestoreapi.com/products") //step 1 fetch data api calling
       cartBtn[i].addEventListener("click", function () {
         var cardIn = document.querySelector(".cardIn");
         var cardHeader = document.createElement("div");
-        cardHeader.classList.add("cards");
+        cardHeader.classList.add("side-card");
         cardHeader.innerHTML =  `    
         <div class="row g-0" >
                 <div class="col-md-12">
                     <img
                         src="${cartBtn[i].getAttribute("data-img")}"
-                        class=" rounded-start"
+                        class="side-card-img rounded-start"
                         alt="...">
                 </div>
                 <div class="col-md-12">
