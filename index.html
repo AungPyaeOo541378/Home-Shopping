@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Shopping</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+<!--Nabar-->
+<nav class="navbar bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand">Home Shopping</a>
+    <div class="d-flex justify-content-end">
+      <button class="btn btn-white me-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
+        Card <i class="bi bi-cart4"></i>
+      </button>
+      
+      <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="staticBackdropLabel"> Card to Shop</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <div class="cardIn">
+           
+          </div>
+        </div>
+     
+    </div>
+    <div>
+    <form class="d-flex" role="search">
+      <input class="form-control me-2 search-bar" type="search" placeholder="Search" aria-label="Search">
+    </form>
+  </div>
+</div>
+  </div>
+</nav>
+<!--Nabar End-->
+
+<div class="d-flex justify-content-xl-around">
+  <!--product left-->
+    <div id="cardDiv">
+     
+    </div>
+     <!--product right-->
+    <div class="">
+      <h3 class="text-warning bg-dark" style="font-size: 50px;"> New Arriving ToDay</h3><br><br>
+      <div id="product-list"></div>
+    </div>
+</div>
+<!--product-->
+
+
+
+    
+</body>
+<script src="app.js"></script>
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</html>
